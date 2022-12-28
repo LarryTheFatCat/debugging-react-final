@@ -10,10 +10,10 @@ export const Navbar = () => {
         <div className="navContainer" id="navbar-main">
             <nav className="nav nav-main">
                 <ul className="nav-list">
-                    <img className="nav nav-image" src={NavBarLogo} alt="" onClick={RefreshIcon} />
-                    <li className="nav nav-home"> Home </li>
-                    <li className="nav nav-about">About Me</li>
-                    <li className="nav nav-contacts">Contacts</li>
+                    <img className="nav nav-image" src={NavBarLogo} alt="navigationbar icon display" onClick={RefreshIcon} />
+                    <li className="nav nav-home" onClick={RefreshIcon}> Home </li>
+                    <li className="nav nav-about" onClick={RefreshIcon}>About Me</li>
+                    <li className="nav nav-contacts" onClick={RefreshIcon}>Contacts</li>
                 </ul>
             </nav>
         </div>

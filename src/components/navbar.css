@@ -10,12 +10,13 @@ nav ul li {
     padding: 8px;
     cursor: pointer;
     list-style-type: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
     transition: 500ms;
 }
 
 nav ul li:hover {
     color: #494c88;
-    text-decoration: underline;
 }
 
 nav {
