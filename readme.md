@@ -1,0 +1,3 @@
+# React Final Test
+
+I'm just creating a final repository where I can just test differen't react things before I start creating projects with vite and React...
